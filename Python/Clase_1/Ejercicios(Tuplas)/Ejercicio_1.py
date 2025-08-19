@@ -4,7 +4,5 @@
 
 #Definimos la tupla
 tupla = (13, 1, 8, 3, 2, 5, 8)
-
 lista_menores = [num for num in tupla if num < 5]
-
 print(lista_menores)
