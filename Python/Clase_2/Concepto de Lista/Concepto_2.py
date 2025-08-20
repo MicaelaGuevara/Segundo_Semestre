@@ -17,3 +17,13 @@ print(lista3.count(1)) #Cuenta cuantos valores iguales hay dentro de la lista
 #Para poner al revez una lista
 lista3.reverse()
 print(lista3)
+
+#Para que una lista se multiplique repitiendo sus elementos
+lista3 = lista3 + 2
+print(lista3)
+
+#Metodo de ordenamiento, en python es una funcíon
+lista3.sort() #Ordena los elementos ascedentemente
+print(lista3)
+lista3.sort(reverse=True) #Ordena descendentemente
+print(lista3)
